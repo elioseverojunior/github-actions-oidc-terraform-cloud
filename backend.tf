@@ -3,7 +3,7 @@ terraform {
     hostname     = "app.terraform.io"
     organization = "elioseverojunior"
     workspaces {
-      prefix = "github-oidc-prod"
+      name = "github-oidc-prod"
     }
   }
 }
